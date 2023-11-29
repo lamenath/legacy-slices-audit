@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prismic Custom Types Utility</title>
+    <!-- Add some basic styling and JavaScript links here -->
+</head>
+<body>
+    <form id="customTypesForm">
+        <label for="repositoryId">Repository ID:</label>
+        <input type="text" id="repositoryId" name="repositoryId" required>
+        <label for="bearerToken">Bearer Token:</label>
+        <input type="text" id="bearerToken" name="bearerToken" required>
+        <button type="submit">Get Custom Types</button>
+    </form>
+    <h1>Types</h1>
+    <a href="#" id="downloadTypesCSV">Download Types CSV</a>
+    <div id="customTypesList">
+        <!-- Custom types will be listed here -->
+    </div>
+    <h1>Slices</h1>
+    <a href="#" id="downloadSlicesCSV">Download Slices CSV</a>
+    <div id="allSlicesList">
+        <!-- All slices will be listed here -->
+    </div>    
+    <script src="main.js"></script>
+</body>
+</html>
+
